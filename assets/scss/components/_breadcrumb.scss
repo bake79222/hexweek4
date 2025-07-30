@@ -1,0 +1,5 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    color: $neutral-300; 
+    padding-left: 12px;    
+    padding-right: 12px;  
+}

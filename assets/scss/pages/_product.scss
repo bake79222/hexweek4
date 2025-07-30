@@ -1,0 +1,35 @@
+body{
+    font-family: 'Noto Sans TC', 'Microsoft JhengHei UI', 'Microsoft JhengHei', sans-serif;
+}
+
+
+
+.page-item{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-item.active{
+    background-color: $primary-300;
+    font-weight: 500;
+}
+
+.page-item.disabled a {
+  pointer-events: none;     /* 無法點擊 */
+  opacity: 0.5;             /* 淡化 */
+  cursor: not-allowed;      /* 滑鼠變叉叉 */
+}
+
+@media (max-width: 576px) {
+    .breadcrumb-item + .breadcrumb-item::before {
+    color: $neutral-300; 
+    padding-left: 8px;    
+    padding-right: 8px;   
+    }
+
+    .custom-gutter {
+    --bs-gutter-x: 12px !important; /* 水平間距 */
+    }
+}

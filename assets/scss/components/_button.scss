@@ -1,0 +1,24 @@
+.sizecard{
+    all: unset;
+    box-sizing: border-box;
+    padding: 12px 24px;
+    max-width: 160px;
+    width: 100%;
+    border: 1px solid #DEE2E6;
+    color:#212529 ;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+.sizecard:hover{
+    border: 1px solid #212529;
+}
+.sizecard.active{
+    border: 1px solid #212529;              /* 邊框變深色 */
+
+}
+.sizecard.lack{
+    color: #DEE2E6;
+    border: 1px solid #DEE2E6;
+    cursor: not-allowed;
+}

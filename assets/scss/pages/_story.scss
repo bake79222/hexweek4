@@ -1,0 +1,38 @@
+// 字型內容
+.text-no-decoration {
+    text-decoration: none ;
+}
+.logofont{
+    font-family: 'Mina', sans-serif;
+}
+
+
+
+//頁面樣式
+.herotext{
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true');
+    background-size: cover;       /* 讓背景圖等比例填滿容器 */
+    background-position: center;  /* 背景圖置中 */
+    width: 100%;                  /* 撐滿寬度（根據你的容器） */
+}
+
+.p-underline{
+    border-bottom: 1px solid $primary-400;
+    padding-bottom: 4px;
+}
+.border-radius{
+    border-radius: 4px;
+} 
+.history-list{
+    list-style-type: disc;
+}
+.history-desc{
+    border-left: 1px solid $neutral-900;
+    padding-left: 8px;
+}
+
+@media (max-width: 576px) {
+    .herotext{
+        background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true');
+    }
+}

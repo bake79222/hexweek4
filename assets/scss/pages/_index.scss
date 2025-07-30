@@ -1,0 +1,93 @@
+///頁面樣式
+.star{
+    
+    width: 48px;
+    top: 68px;
+    left: calc(50% - 397px);
+}
+.sparkle{
+
+    width: 76px;
+    bottom: 132px;
+    right: calc(50% - 357px);
+
+}
+
+.productclass{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.bg-gray-text{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.custom-gutter-sm-8{
+    --bs-gutter-x: 8px;
+    gap: var(--bs-gutter-x); /* 用於 flex 模式 */
+    flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+   //頁面樣式
+    .slogan-xs{          
+        left: 50% !important;           
+        transform: translate(-50%,-50%) !important; 
+        white-space: nowrap;    
+        max-width: calc(100% - 48px); 
+        margin-left: 24px;
+    }
+
+    .d-flex{
+        .flex-shrink-0{
+            width: 300px;
+        }
+    }
+    .mobile-scroll::-webkit-scrollbar {
+        display: none;
+    }
+    .mobile-scroll {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .row-xs{
+        height: 480px;
+        width: 100%;
+        // margin-left: 0;
+        // margin-right: 0;
+        overflow: hidden;
+    }
+    .img-xs{
+        height: 100%; /* 或其他你要的高度 */
+        // object-fit: cover; /* 可選，看你是否要裁切 */
+    }
+
+    .star-xs{
+        top: 32px;
+        left: -20px;
+        // transform: translateX(50px); /* 向右偏移 50px */
+    }
+    .sparkle-xs{
+        bottom: 104px;
+        right: -28px;
+    }
+    .boxhidden{
+        overflow: hidden;
+    }
+
+    .ins-row{
+        
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+
+    .ins-col-12{
+        width: 100%;
+        flex-direction: row;
+    }
+    .ins-col-card{
+        padding: 0;
+        width: 300px;
+        height: 300px;
+    }
+
+}

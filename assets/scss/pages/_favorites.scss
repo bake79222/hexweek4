@@ -1,0 +1,23 @@
+.checkstyle{
+    font-size: 40px;
+
+}
+.truckstyle{
+    font-size: 24px;
+}
+.img-card{
+    width: 120px;
+    height: 120px;
+}
+.set-align{
+    align-self: flex-end;
+}
+@media (max-width: 576px) {
+    .checkstyle{
+        font-size: 32px;
+
+    }
+    .set-align{
+        align-self: flex-start;
+    }
+}

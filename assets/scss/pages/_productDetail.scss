@@ -1,0 +1,24 @@
+
+.color-card-img{
+    width: 64px;
+    height: 64px;
+}
+.sizebox{
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 8px;
+}
+
+
+.savebooking a {
+    background-color: white;
+    border: 1px solid #212529;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.savebooking a:hover {
+  background-color: #212529;
+  color: white;
+}

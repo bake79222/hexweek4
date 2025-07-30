@@ -1,0 +1,65 @@
+.img-h{
+    max-height: 589px;
+    height: 100%;
+}
+.logo-margin{
+    top:71px;
+    left: 52px;
+}
+.solgan-margin{
+    top:144px;
+    left:137px;
+}
+.loginbox{
+    max-width: 586px;
+    width: 100%;
+}
+.items-bottom-border{
+    border-bottom: 2px solid $neutral-300;
+    cursor: pointer
+}
+.items-bottom-border.active{
+    border-bottom: 2px solid $neutral-900;
+}
+.items-border{
+    border: 1px solid $neutral-300;
+}
+.items-button {
+  max-width: 293px;
+  width: 100%;
+  border-bottom: 2px solid #DEE2E6;
+  cursor: pointer;
+
+  &.active {
+    border-bottom: 2px solid #212529;
+  }
+}
+.login-flag{
+    display: flex;
+}
+.register-flag {
+  display: none;
+}
+
+
+@media (max-width: 576px) {
+    .banner-xs-style{
+        padding-left: 0;
+        padding-right: 0;
+        border-radius: 0;
+    }
+    .img-h{
+        max-height: 240px;
+        height: 100%;
+        object-fit: cover; 
+        display: block; 
+    }
+    .logo-margin{
+        top:24px;
+        left: 24px;
+    }
+    .solgan-margin{
+        top:71px;
+        left:24px;
+    }
+}
