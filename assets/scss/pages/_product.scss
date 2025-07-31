@@ -22,7 +22,7 @@ body{
   cursor: not-allowed;      /* 滑鼠變叉叉 */
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     .breadcrumb-item + .breadcrumb-item::before {
     color: $neutral-300; 
     padding-left: 8px;    
