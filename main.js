@@ -1,5 +1,5 @@
 import './assets/scss/all.scss';
-
+AOS.init();
 // 1. 取得所有有 .sizecard class 的按鈕
 const sizeCards = document.querySelectorAll('.sizecard');
 
